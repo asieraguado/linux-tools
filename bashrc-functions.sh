@@ -14,6 +14,10 @@ ldapuser() {
     ldapsearch -H ldap://xldap.cern.ch -x -b "OU=Users,OU=Organic Units,DC=cern,DC=ch" "CN=$1"
 }
 
+ldapuserf() {
+     ldapsearch -H ldap://xldap.cern.ch -x -b "OU=Users,OU=Organic Units,DC=cern,DC=ch" "$1"
+} 
+
 ldaplw() {
     ldapsearch -H ldap://xldap.cern.ch -x -b "OU=Externals,DC=cern,DC=ch" "mail=$1"
 }
