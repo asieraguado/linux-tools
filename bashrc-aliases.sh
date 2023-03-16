@@ -16,4 +16,5 @@ alias gl='git log'
 alias gst='git status'
 alias cernnet='sshuttle -r aaguadoc@lxplus.cern.ch --dns 10.0.0.0/8 10.100.0.0/16 10.254.0.0/16 10.76.0.0/15 100.64.0.0/10 128.141.0.0/16 128.142.0.0/16 137.138.0.0/16 172.16.0.0/12 185.249.56.0/22 188.184.0.0/15 192.65.196.0/23 192.91.242.0/24 194.12.128.0/18 -x lxplus.cern.ch -x aiadm.cern.ch -x 172.17.0.0/24 -x 172.17.0.3 -x 172.17.0.4 -x 172.17.0.5 -x 172.17.0.6 -x 172.17.0.7 -x 172.17.0.8 -x 172.17.0.9 -x 172.17.0.10' # exclude docker and lxplus
 alias gedit='gnome-text-editor'
+alias k='oc'
 
